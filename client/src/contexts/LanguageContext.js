@@ -1,4 +1,7 @@
-import React, { createContext } from 'react';
+import  { createContext } from 'react';
 
+const LanguageContext = createContext('dutch');
 
-export default createContext();
+export const LanguageProvider = LanguageContext.Provider
+
+export default LanguageContext;
