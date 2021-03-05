@@ -1,6 +1,6 @@
 import  { createContext } from 'react';
 
-const LanguageContext = createContext('dutch');
+const LanguageContext = createContext('english');
 
 export const LanguageProvider = LanguageContext.Provider
 
